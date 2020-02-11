@@ -1,0 +1,51 @@
+// colors
+$primary-1:#03a9f4;
+$primary-2:#f75e2e;
+$primary-3:#ecfa4d;
+$primary-4:#656a70;
+
+// light-colors
+
+$l1-1:mix(#fff,$primary-1,40%);
+$l2-1:mix(#fff,$primary-1,75%);
+$l3-1:mix(#fff,$primary-1,90%);
+
+$l1-2:mix(#fff,$primary-2,40%);
+$l2-2:mix(#fff,$primary-2,75%);
+$l3-2:mix(#fff,$primary-2,90%);
+
+$l1-3:mix(#fff,$primary-3,40%);
+$l2-3:mix(#fff,$primary-3,75%);
+$l3-3:mix(#fff,$primary-3,90%);
+
+$l1-4:mix(#fff,$primary-4,40%);
+$l2-4:mix(#fff,$primary-4,75%);
+$l3-4:mix(#fff,$primary-4,90%);
+
+// dark-colors
+
+$d1-1:mix(#000,$primary-1,20%);
+$d2-1:mix(#000,$primary-1,50%);
+$d3-1:mix(#000,$primary-1,70%);
+
+$d1-2:mix(#000,$primary-2,20%);
+$d2-2:mix(#000,$primary-2,50%);
+$d3-2:mix(#000,$primary-2,70%);
+
+$d1-3:mix(#000,$primary-3,20%);
+$d2-3:mix(#000,$primary-3,50%);
+$d3-3:mix(#000,$primary-3,70%);
+
+$d1-4:mix(#000,$primary-4,20%);
+$d2-4:mix(#000,$primary-4,50%);
+$d3-4:mix(#000,$primary-4,70%);
+
+
+// fonts
+$p-light:'Poppins-Light';
+$p-semibold:'Poppins-SemiBold';
+$p-medium:'Poppins-Medium';
+$p-regular:'Poppins-Regular';
+$p-bold:'Poppins-Bold';
+
+

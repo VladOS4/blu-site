@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6, ul, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    @include font(35px,$p-bold,$d3-4);
+}
+h2{
+    @include font(33px,$p-medium,$d2-4);
+}
+h2:hover{
+    background-color: $primary-1;
+    @include font(33pt,$p-medium,#fff);
+}
+h3{
+    @include font(27pt,$p-medium,$d3-4);
+}
+h4{
+    @include font(22pt,$p-medium,$d3-4);
+}
+h5{
+    @include font(17pt,$p-medium,$d3-4);
+}
+h6{
+    @include font(15pt,$p-medium,$d3-4);
+}
+p{
+    @include font(14pt,$p-regular,$d1-4);
+}
+.subtitle{
+    @include font(20pt,$p-medium,$d1-4);
+}
+.subtitle:hover{
+    background-color: $primary-1;
+    @include font(20pt,$p-medium,#fff);
+}
+.list-style{
+    @include font(15pt,$p-medium,$d1-4);
+    list-style-image: url(../../img/correct.png);
+}
+.quotation{
+    @include font(17pt,$p-regular,$d1-1);
+    background-color: $l3-1;
+}
