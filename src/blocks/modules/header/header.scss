@@ -1,0 +1,298 @@
+p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+ line-height: unset;
+}
+button {
+    line-height: normal;
+}
+.header{
+    background-color: $primary-1;
+    .logo{ 
+    .logo2{margin-right: 10px;
+        line-height: 100px;
+        img{
+            float: left;
+            margin-top: 15px;
+        }}
+        .logo1{
+      line-height: 15px;
+            float: left;
+            margin-top: 35px;
+        .h1{
+            @include font(39px,$p-light, #ffffff);
+            margin-bottom: 0px;
+           
+          
+        .essay{
+            @include font(30px,$p-regular, $primary-3);
+            text-transform: uppercase;
+           
+
+        }
+        .net{
+            @include font(13px,$p-regular, #ffffff);
+           
+
+        }
+        }
+       .h3{
+            @include font(14px,$opensans, #ffffff);
+ word-spacing: 4px;
+ letter-spacing: 1px;
+        }
+        @media(max-width:1199px) and (min-width:991px){
+            .h1{
+                @include font(34px,$p-light, #ffffff);
+                .essay{
+                    @include font(26px,$p-regular, $primary-3);}
+                    .net{
+                        @include font(10px,$p-regular, #ffffff);}
+                        
+                }
+                .h3{
+                    @include font(10px,$opensans, #ffffff);}}
+                    @media(max-width:991px) and (min-width:321px){
+                        .h1{
+                            @include font(34px,$p-light, #ffffff);
+                            .essay{
+                                @include font(26px,$p-regular, $primary-3);}
+                                .net{
+                                    @include font(10px,$p-regular, #ffffff);}
+                                    
+                            }
+                            .h3{
+                                @include font(10px,$opensans, #ffffff);}
+                    }
+                    @media(max-width:320px){
+                        .h1{
+                            @include font(30px,$p-light, #ffffff);
+                            .essay{
+                                @include font(24px,$p-regular, $primary-3);}
+                                .net{
+                                    @include font(8px,$p-regular, #ffffff);}
+                                    
+                            }
+                            .h3{
+                                @include font(8px,$opensans, #ffffff);}
+                    }
+    } 
+    @media(max-width:991px) and (min-width:321px){
+        .logo2{
+            img{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+        .logo1{
+        margin-top: 30px;}
+    }
+  
+
+ 
+}
+.menu{
+    
+    line-height: 100px;
+    text-transform: uppercase;
+    
+    ul{
+    li{
+    list-style-type: none;
+    @include font(12px,$p-semibold, #ffffff);
+
+}}
+.first{
+    justify-content: flex-end;
+    margin-left: 5px;
+    ul{
+        li{
+        list-style-type: none;
+        @include font(12px,$p-semibold, #ffffff);
+      
+    }
+   
+}
+.d4 {
+    width: 0; 
+    height: 0;
+    border-left: 3.5px solid transparent;
+    border-right: 3.5px solid transparent;
+    border-top: 2.5px solid #ffffff;
+    margin-top: 47px;
+    margin-right: 40px;
+    margin-left: 12px;
+    } }
+    .second{
+        justify-content: flex-end; 
+        img{
+            width: 30px;
+            height: 30px;
+            margin-top: 35px;
+        }
+    .button{
+        content: '';
+        background-color: $d1-1;
+        width: 100px; height: 40px;
+        border-radius: 5px;
+        border: none;
+        display: block;
+        text-transform: uppercase;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 30px;
+        @include font(12px,$p-semibold, #ffffff);
+
+    }
+    .button1{
+        content: '';
+        background-color: $primary-2;
+        width: 100px; height: 40px;
+        border-radius: 5px;
+        display: block;
+        margin-top: 30px;
+        border: none;
+        text-transform: uppercase;
+color: #fff;
+margin-left: 10px;
+@include font(12px,$p-semibold, #ffffff);
+    }
+    .burger{
+        width: 22px;
+        height: 3px;
+        background-color: #ffffff;
+        display: block;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 50px;
+      
+    }
+    .burger::before{
+        content: '';
+        width: 22px;
+        height: 3px;
+        background-color: #ffffff;
+        display: block;
+        position: absolute;
+        top: -5px;
+      
+
+    }
+    .burger::after{
+        content: '';
+        width: 22px;
+        height: 3px;
+        background-color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 5px;
+        
+    }}
+    @media(max-width:1199px) and (min-width:991px){
+        ul{
+            li{
+            @include font(10px,$p-semibold, #ffffff);
+          
+        }}
+        .first{
+        .d4{
+            margin-right: 17px;
+            margin-left: 8px;
+        }}
+        .second{
+            .button{
+                margin-left: 15px;
+                
+            }
+            .burger{
+                margin-left: 15px;
+                width: 20px;
+            }
+            .burger::before{
+                width: 18px; 
+            }
+            .burger::after{
+                width: 18px;
+            }
+        }
+    }
+    @media(max-width:991px) and (min-width:321px){
+        ul{
+            li{
+            @include font(10px,$p-semibold, #ffffff);
+          
+        }}
+        .second{
+            .button{
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            .button1{
+                margin-top: 25px;
+            }
+            .burger{
+                margin-left: 15px;
+                width: 18px;
+                margin-top: 43px;
+
+            }
+            .burger::before{
+                width: 18px; 
+            }
+            .burger::after{
+                width: 18px;
+            }
+        }}
+        @media(max-width:320px){
+            ul{
+                li{
+                @include font(10px,$p-semibold, #ffffff);
+              
+            }}
+            .second{
+                margin-bottom: 10px;
+                img{
+                    margin-top: 32px;
+                }
+                .button{
+                    margin-left: 8px;
+                    margin-top: 25px;
+                }
+                .button1{
+                    margin-top: 25px;
+                    margin-left: 8px;
+                }
+                .burger{
+                    margin-left: 8px;
+                    width: 18px;
+                    margin-top: 43px;
+    
+                }
+                .burger::before{
+                    width: 18px; 
+                }
+                .burger::after{
+                    width: 18px;
+                }
+            }
+        }
+    }
+    @media(max-width:991px) and (min-width:321px){
+        .menu{margin-left: auto;
+        .second{
+            margin-right: 15px;
+            margin-left: auto;
+        img{
+            margin-top: 30px;
+        }
+
+        }
+    }}
+    @media(max-width:320px){
+
+    }
+}

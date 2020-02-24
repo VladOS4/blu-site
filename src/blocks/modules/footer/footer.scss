@@ -1,0 +1,151 @@
+.footer{
+    background-color: $primary-1;
+   
+    .logo{ 
+        float: left;
+        margin-bottom: 10px;
+        .logo2{margin-right: 10px;
+            line-height: 100px;
+            img{
+                float: left;
+                margin-top: 15px;
+            }}
+            .logo1{
+          line-height: 15px;
+                float: left;
+                margin-top: 35px;
+            .h1{
+                @include font(39px,$p-light, #ffffff);
+                margin-bottom: 0px;
+                
+               
+              
+            .essay{
+                @include font(30px,$p-regular, $primary-3);
+                text-transform: uppercase;
+               
+    
+            }
+            .net{
+                @include font(13px,$p-regular, #ffffff);
+               
+    
+            }
+            }
+           .h3{
+                @include font(14px,$opensans, #ffffff);
+     word-spacing: 4px;
+     letter-spacing: 1px;
+            }
+            @media(max-width:1199px) and (min-width:991px){
+                .h1{
+                    @include font(34px,$p-light, #ffffff);
+                    .essay{
+                        @include font(26px,$p-regular, $primary-3);}
+                        .net{
+                            @include font(10px,$p-regular, #ffffff);}
+                            
+                    }
+                    .h3{
+                        @include font(10px,$opensans, #ffffff);}}
+                        @media(max-width:991px) and (min-width:321px){
+                            .h1{
+                                @include font(34px,$p-light, #ffffff);
+                                .essay{
+                                    @include font(26px,$p-regular, $primary-3);}
+                                    .net{
+                                        @include font(10px,$p-regular, #ffffff);}
+                                        
+                                }
+                                .h3{
+                                    @include font(10px,$opensans, #ffffff);}
+                        }
+                        @media(max-width:320px){
+                            .h1{
+                                @include font(30px,$p-light, #ffffff);
+                                .essay{
+                                    @include font(24px,$p-regular, $primary-3);}
+                                    .net{
+                                        @include font(8px,$p-regular, #ffffff);}
+                                        
+                                }
+                                .h3{
+                                    @include font(8px,$opensans, #ffffff);}
+                        }
+        } 
+        @media(max-width:991px) and (min-width:321px){
+            .logo2{
+                img{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .logo1{
+            margin-top: 30px;}
+        }
+      
+    
+     
+    }
+   
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+         text-transform: uppercase;
+        li{
+            margin-top: 40px;
+        list-style-type: none;
+        margin-right: 30px;
+        @include font(12px,$p-semibold, #ffffff);
+    
+    }}
+    hr{
+        width: 100%;
+        height: 1px;
+        background-color: #81d4fa;
+        border: none;
+        margin-left: 15px;
+        margin-bottom: 45px;
+    }
+    .section{
+        @include font(16px,$p-medium, #ffffff);
+        margin-bottom: 25px; 
+    }
+    .sections{
+        margin-bottom: 40px;
+        @include font(13px,$p-regular, #ffffff);
+        li{
+            list-style-type: none;
+        }
+    }
+    .bot{
+        justify-content: space-between;
+        margin-bottom: 45px;
+        .copy{
+        @include font(13px, $ms500, #ffffff);
+        padding-right: 0px;
+        margin-right: 15px;
+        }
+        .social{
+            text-align: left; 
+            margin-right: 5px;
+        }
+        .tell{
+            margin-right: 5px;
+            p{
+            @include font(13px, $p-medium, #ffffff);
+        line-height: 18px;}
+            img{
+                float: left;
+                margin-right: 10px;
+                margin-left: 15px;
+                margin-top: 3px;
+            }
+            span{
+                @include font(16px, $p-regular, #ffffff);
+                font-weight: bold;
+            }
+        }
+    }
+    
+}

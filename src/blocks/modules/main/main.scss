@@ -1,0 +1,457 @@
+.c01{
+    background-color: #fff;
+    img{
+        float: left;
+        margin-top: 110px;
+        margin-bottom: 90px;
+    }
+    .text{
+        margin-top: 100px;
+        margin-left: 55px;
+        margin-bottom: 90px;
+h5{
+    @include font(15px,$p-regular, $primary-1);
+    margin-bottom: 40px;
+}
+h1{
+    @include font(35px,$p-regular, $d3-4);
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+p{
+    @include font(14px,$p-regular, $primary-4);
+}
+    }
+}
+
+//c02
+
+.c02{
+    background: url(../../../img/icons_bg.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    h5{
+        @include font(15px,$p-regular, #fff);
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 15px;
+    }
+    h1{
+        @include font(33px,$p-medium, #fff);
+        margin-bottom: 55px;
+    }
+    .w-b{justify-content: space-between;
+    .blocks{
+        height: 315px;
+        width: 358px;
+        background-color: #fff;
+        text-align: center;
+        padding: 0 52px 0 52px;
+        img{
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        h3{
+            @include font(17px,$p-medium, $d3-4); 
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        p{
+            @include font(14px,$p-regular, $d1-4);   
+        }
+    }}
+    button{
+        width: 280px;
+        height: 50px;
+        background-color: $d1-1;
+        margin-top: 55px;
+        @include font(14px,$p-medium, #fff);
+        margin-bottom: 90px;
+        text-transform: none;
+        border: none;
+      }
+}
+
+
+//c03
+
+.c03{
+    background-color: #fff;
+    text-align: center;
+    h5{
+        @include font(15px,$p-regular, $primary-1);
+        text-align: center;
+        margin-top: 85px;
+        margin-bottom: 25px;
+    }
+    h1{
+        @include font(33px,$p-medium, $d2-4);
+        margin-bottom: 55px;
+    }
+    .step{
+        .steps{
+            width: 290px;
+            height: 180px;
+            border-right: solid 2px $l2-1;
+            padding: 0 52px 0 47px;
+            margin-bottom: 155px; 
+            img{
+                
+                margin-bottom: 20px;
+            }
+            h3{
+                @include font(17px,$p-semibold, $d3-4); 
+                margin-bottom: 20px;
+                font-weight: normal;
+            }
+            p{
+                @include font(13px,$p-regular, $d1-4);   
+            }
+     .d6{  width: 0px;
+        height: 0px;
+        border: 23px solid transparent;
+        border-top-color: #c0eafc;
+        margin: 0;
+        padding: 0;
+        float: left;
+        transform: rotate(270deg) translate(0px, 25px);
+        -webkit-transform: rotate(270deg) translate(0px, 25px);
+        -moz-transform: rotate(270deg) translate(0px, 25px);
+        -o-transform: rotate(270deg) translate(0px, 25px);
+        -ms-transform: rotate(270deg) translate(0px, 25px);
+        top: -145px;
+        left: 206px;
+        z-index: 0;
+        position: relative;
+            }
+            .d6:before{
+                content: '';
+                 width: 0px; 
+                 height: 0px; 
+                 /* margin-right: 313px; */
+                  /* left: -76px; */ 
+                  border: 22px solid transparent; /* border-bottom-color: red; */ position: relative; border-top-color: white; top: -5px; z-index: 1; left: -22px; /* display: inline-block; */ -webkit-transform: translate(-30px, -50px);
+              }
+              .d7{  width: 0px;
+                height: 0px;
+                border: 22px solid transparent;
+                border-top-color: #c0eafc;
+                margin: 0;
+                padding: 0;
+                float: left;
+                transform: rotate(270deg) translate(0px, 25px);
+                -webkit-transform: rotate(270deg) translate(0px, 25px);
+                -moz-transform: rotate(270deg) translate(0px, 25px);
+                -o-transform: rotate(270deg) translate(0px, 25px);
+                -ms-transform: rotate(270deg) translate(0px, 25px);
+                top: -190px;
+    left: 205px;
+                z-index: 0;
+                position: relative;
+                    }
+                    .d7:before{
+                        content: '';
+                         width: 0px; 
+                         height: 0px; 
+                         /* margin-right: 313px; */
+                          /* left: -76px; */ 
+                          border: 22px solid transparent; /* border-bottom-color: red; */ position: relative; border-top-color: white; top: -5px; z-index: 1; left: -22px; /* display: inline-block; */ -webkit-transform: translate(-30px, -50px);
+                      }
+                      .d8{  width: 0px;
+                        height: 0px;
+                        border: 23px solid transparent;
+                        border-top-color: #c0eafc;
+                        margin: 0;
+                        padding: 0;
+                        float: left;
+                        transform: rotate(270deg) translate(0px, 25px);
+                        -webkit-transform: rotate(270deg) translate(0px, 25px);
+                        -moz-transform: rotate(270deg) translate(0px, 25px);
+                        -o-transform: rotate(270deg) translate(0px, 25px);
+                        -ms-transform: rotate(270deg) translate(0px, 25px);
+                        top:  -165px;
+            left: 205px;
+                        z-index: 0;
+                        position: relative;
+                            }
+                            .d8:before{
+                                content: '';
+                                 width: 0px; 
+                                 height: 0px; 
+                                 /* margin-right: 313px; */
+                                  /* left: -76px; */ 
+                                  border: 22px solid transparent; /* border-bottom-color: red; */ position: relative; border-top-color: white; top: -5px; z-index: 1; left: -22px; /* display: inline-block; */ -webkit-transform: translate(-30px, -50px);
+                              }
+            
+        }
+        .steps4{
+            width: 290px;
+            height: 180px;
+            border-right: none;
+            padding: 0 52px 0 47px;
+            margin-bottom: 155px; 
+            img{
+                
+                margin-bottom: 20px;
+            }
+            h3{
+                @include font(17px,$p-semibold, $d3-4); 
+                margin-bottom: 20px;
+                font-weight: normal;
+            }
+            p{
+                @include font(13px,$p-regular, $d1-4);
+                 
+            }
+        }
+    }
+}
+
+//c04
+
+.c04{
+    background: url(../../../img/rocket.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    h5{
+        @include font(15px,$p-regular, #fff);
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+    h1{
+        @include font(33px,$p-medium, #fff);
+        margin-bottom: 25px;
+        font-weight: normal;
+    }
+    p{
+        @include font(20px,$p-medium, #fff); 
+       margin-left: auto;
+       margin-right: auto;
+       font-weight: normal;
+       margin-bottom: 350px;
+    }
+    .block1{
+        width: 945px;
+        height: 490px;
+        background-color: $primary-1;
+        position: absolute;
+        top: 3045px;
+        left: 50%;
+        margin-left: -472.5px;
+        justify-content: center;
+        box-shadow: 0 0  10px rgba(92, 91, 91, 0.5);
+   .blocks1{
+    width: 555px;
+    height: 490px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 49px 38px 49px 38px;
+       
+        .first{
+            border-right: 1px solid $l2-4;
+            border-bottom: 1px solid $l2-4;
+            width: 240px;
+            height: 190px;
+            top: 7px;
+        
+    h2{
+        @include font(35px,$p-regular, $primary-2); 
+        line-height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        @include font(14px,$p-regular, $d1-4);   
+    span{
+        @include font(17px,$p-semibold, $d1-1);   
+    }
+    }}
+    .second{
+        border-left: 1px solid $l2-4;
+        border-top: 1px solid $l2-4;
+        width: 240px;
+        height: 190px;
+    
+h2{
+    @include font(35px,$p-regular, $primary-2); 
+    line-height: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+
+}
+p{
+    @include font(14px,$p-regular, $d1-4);   
+span{
+    @include font(17px,$p-semibold, $d1-1);   
+}
+}}
+.x{
+    width: 240px;
+        height: 190px;
+        border-right: 1px solid $l2-4;
+        border-top: 1px solid $l2-4;
+        margin-bottom: 0;
+    h2{
+        @include font(35px,$p-regular, $primary-2); 
+        line-height: 40px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    p{
+        @include font(14px,$p-regular, $d1-4);   
+    span{
+        @include font(17px,$p-semibold, $d1-1);   
+    }
+    }}
+    .y{
+        width: 240px;
+            height: 190px;
+            border-left: 1px solid $l2-4;
+            border-bottom: 1px solid $l2-4;
+            top: 7px;
+
+        h2{
+            @include font(35px,$p-regular, $primary-2);
+            line-height: 40px; 
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        p{
+            @include font(14px,$p-regular, $d1-4);   
+        span{
+            @include font(17px,$p-semibold, $d1-1);   
+        }
+        }}
+}
+.blocks2{
+    height: 485px;
+    width: 390px;
+    position: relative;
+ 
+    img{
+        position: absolute;
+        z-index: 2;
+        left: 309px;
+        top: 307px;
+    }
+    }
+    .big{
+        height: 445px;
+        position: absolute;
+    width: 340px;
+top: 50%;
+left: 50%;
+margin-left: -170px;
+margin-top: -222.5px;
+        background: url(../../../img/stroke.png) center no-repeat;
+        background-size: cover;
+        h4{
+            margin-top: 30px;
+            margin-left: 20px;
+            @include font(25px,$p-semibold, #fff); 
+            text-transform: uppercase; 
+        }
+        p{
+            @include font(18px,$opensans-i, #fff); 
+            margin-top: 275px;
+            text-align: left;
+            margin-left: 28px;
+            span{
+                @include font(18px,$opensans-i, #fff);
+                font-weight: bold; 
+            }
+        }
+        .small{
+            background: url(../../../img/bg-small.png) center no-repeat;
+        background-size: cover;
+        z-index: 1;
+        height: 210px;
+    width: 280px;
+    top: 50%;
+left: 50%;
+margin-left: -140px;
+margin-top: -105px;
+position: absolute;
+padding-left: 60px;
+padding-right: 60px;
+line-height: 40px;
+p{
+    @include font(24px,$p-medium, #fff);
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+span{
+    @include font(61.62px,$p-regular, #e2f55d);
+    margin-top: 0px;
+    text-align: center;
+}
+h6{
+    @include font(14px,$p-medium, #fff);  
+    margin-top: 0px;
+    line-height: 10px;
+}
+        }
+    }
+}
+   }
+
+
+   //c05
+
+   .c05{
+    background-color: #fff;
+    text-align: center;
+    h5{
+        @include font(15px,$p-regular, $primary-1);
+        text-align: center;
+        margin-top: 360px;
+        margin-bottom: 25px;
+    }
+    h1{
+        @include font(33px,$p-medium, $d2-4);
+        margin-bottom: 55px;
+    }
+    .carousel-control-next-icon {
+        background-image: url(../../../img/right-copy-12.png);
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../../../img/left-copy-12.png);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 30px;
+        height: 65px;
+    }
+    .carousel-control-prev {
+        left: -65px;
+        bottom: 180px;
+    }
+    .carousel-control-next {
+        right: -110px;
+        bottom: 180px;
+    }
+    .slide{ 
+        margin-bottom: 40px;
+        padding: 0 95px 0 95px;
+        img{
+            margin-bottom: 30px;
+        }
+        p{
+            @include font(14px,$p-light, $d1-4);  
+            margin-bottom: 50px;
+        }
+        h3{
+            @include font(17px,$p-semibold, $d1-1); 
+            margin-bottom: 20px;
+        }
+        h6{
+            @include font(13px,$p-light, $l1-4); 
+        }
+    }
+   }
+        
