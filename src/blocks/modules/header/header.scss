@@ -102,6 +102,10 @@ button {
     
     ul{
     li{
+        a{
+            @include font(12px,$p-semibold, #ffffff);
+            text-decoration: none;
+        }
     list-style-type: none;
     @include font(12px,$p-semibold, #ffffff);
 
@@ -195,6 +199,10 @@ margin-left: 10px;
     @media(max-width:1199px) and (min-width:991px){
         ul{
             li{
+                a{
+                    @include font(10px,$p-semibold, #ffffff);
+                    text-decoration: none;
+                }
             @include font(10px,$p-semibold, #ffffff);
           
         }}
@@ -223,6 +231,10 @@ margin-left: 10px;
     @media(max-width:991px) and (min-width:321px){
         ul{
             li{
+                a{
+                    @include font(10px,$p-semibold, #ffffff);
+                    text-decoration: none;
+                }
             @include font(10px,$p-semibold, #ffffff);
           
         }}

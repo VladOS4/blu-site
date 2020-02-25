@@ -50,15 +50,15 @@
                         @include font(10px,$opensans, #ffffff);}}
                         @media(max-width:991px) and (min-width:321px){
                             .h1{
-                                @include font(34px,$p-light, #ffffff);
+                                @include font(25px,$p-light, #ffffff);
                                 .essay{
-                                    @include font(26px,$p-regular, $primary-3);}
+                                    @include font(20px,$p-regular, $primary-3);}
                                     .net{
-                                        @include font(10px,$p-regular, #ffffff);}
+                                        @include font(8px,$p-regular, #ffffff);}
                                         
                                 }
                                 .h3{
-                                    @include font(10px,$opensans, #ffffff);}
+                                    @include font(8px,$opensans, #ffffff);}
                         }
                         @media(max-width:320px){
                             .h1{
@@ -93,12 +93,38 @@
         justify-content: flex-end;
          text-transform: uppercase;
         li{
+            a{
+                @include font(12px,$p-semibold, #ffffff);
+            }
             margin-top: 40px;
         list-style-type: none;
         margin-right: 30px;
         @include font(12px,$p-semibold, #ffffff);
     
     }}
+    @media(max-width:1199px) and (min-width:991px){
+        .menu{
+            margin-left: 30px;
+        }
+        
+    }
+    @media(max-width:991px) and (min-width:321px){
+        .menu{
+            justify-content: flex-start;
+            margin-left: 10px;
+            li{
+                a{
+                    @include font(10px,$p-semibold, #ffffff);
+                }
+                margin-top: 40px;
+            list-style-type: none;
+            margin-right: 10px;
+            @include font(10px,$p-semibold, #ffffff);
+        
+        }
+        }
+        
+    }
     hr{
         width: 100%;
         height: 1px;
@@ -145,6 +171,55 @@
                 @include font(16px, $p-regular, #ffffff);
                 font-weight: bold;
             }
+        }
+        @media(max-width:1199px) and (min-width:991px){
+            .copy{
+                margin-top: 5px;
+                @include font(8px, $ms500, #ffffff);
+            }
+            .social{
+                text-align: left; 
+                margin-left: 25px;
+            }
+            .tell{
+                padding-left: 0px;
+                p{
+                @include font(10px, $p-medium, #ffffff);
+            line-height: 18px;}
+                span{
+                    @include font(12px, $p-regular, #ffffff);
+                    font-weight: bold;
+                }
+            }
+            
+        }
+        @media(max-width:991px) and (min-width:321px){
+            .copy{
+                margin-top: 0px;
+                @include font(10px, $ms500, #ffffff);
+                margin-right: 5px;
+            }
+            .social{
+                text-align: left; 
+                margin-left: 0px;
+                padding-left: 0px;
+                img{
+                    height: 27px;
+                    width: 160px;
+                }
+            }
+            .tell{
+                padding-left: 15px;
+                margin-right: 0px;
+                padding-left: 0px;
+                p{
+                @include font(6px, $p-medium, #ffffff);
+            line-height: 14px;}
+                span{
+                    @include font(8px, $p-regular, #ffffff);
+                    font-weight: bold;
+                }
+            } 
         }
     }
     
