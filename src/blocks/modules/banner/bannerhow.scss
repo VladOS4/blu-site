@@ -1,0 +1,30 @@
+.banner1{
+    background: url(../../../img/banner.png) $l3-1 center bottom repeat-x;
+    background-size: contain;
+    @media(max-width:320px){
+        background-size: contain;
+    }
+    
+    h1{
+        @include font(35px,$p-regular, $d3-4);
+        margin-left: 15px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    
+p{
+    @include font(12px,$p-regular, $primary-4);
+word-spacing: 15px;
+margin-left: 15px;
+text-transform: uppercase;
+margin-bottom: 85px;
+a{
+    text-decoration: none;
+    @include font(12px,$p-regular, $primary-4);
+}
+}
+span{
+    @include font(12px,$p-medium, $d3-4);
+word-spacing: 0px;
+}
+}

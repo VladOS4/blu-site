@@ -1,0 +1,89 @@
+
+.our{
+    float: left;
+    padding-right: 30px;
+    
+    h1{
+        @include font(33px,$p-medium,#323538);
+        margin-top: 60px;
+        margin-bottom: 35px;
+    }
+    p{
+        @include font(14px,$p-regular,#51555a);;
+        margin-bottom: 70px;
+    }
+
+    .step{
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .steps{
+            text-align: center;
+            width: 360px;
+            height: 235px;
+            border-top: 2px  solid #edf2f6;
+            border-right: 1px  solid #edf2f6;
+            border-bottom: 2px solid #edf2f6;
+            border-left: 1px solid #edf2f6;
+            border-radius: 5px;
+            padding: 15px 45px 0 45px;
+            margin-bottom: 30px; 
+            box-shadow: 0 0  4px rgba(0,0,0,0.5);
+            img{
+                margin-bottom: 20px;
+            }
+            h3{
+                @include font(17px,$p-semibold, $d3-4); 
+                margin-bottom: 15px;
+                font-weight: normal;
+            }
+            p{
+                @include font(13px,$p-regular, $d1-4);   
+            }}
+        .steps:hover{
+            border-top: 2px  solid #2bb6f5;
+            border-right: 1px  solid #2bb6f5;
+            border-bottom: 2px solid #2bb6f5;
+            border-left: 1px solid #2bb6f5; 
+        }
+        }
+}
+.sidebar{
+    display: block;
+    width: 253px;
+    float: right;
+    .input1{
+        margin-left: 30px;
+        // margin-top: 8px;
+        width: 260px;
+        height: 50px;
+        border-radius: 2px;
+        border: 1px solid #d8dadb;
+        background-color:#f6f9f9 ;
+        @include font(13px,$p-regular, $primary-4);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 59px;
+        padding-left: 20px;
+        padding-right: 15px;
+        background: url(../../../img/search.png) no-repeat #f6f9f9;
+        background-position: 90% 50% ;
+    }
+    h1{
+        margin-top: 50px;
+        @include font(15px,$p-semibold, #0287c3);
+        text-transform: uppercase; 
+        margin-bottom: 30px;
+    }
+    .blues{
+        border-top:1px solid #03a9f4;
+        width: 260px;
+        .blues1{
+height: 45px;
+width: 260px;
+background-color: #e6f7fe;
+border-top:1px solid #c4ebff;
+        }
+    }
+}
