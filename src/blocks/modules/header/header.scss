@@ -20,9 +20,10 @@ button {
             margin-top: 15px;
         }}
         .logo1{
-      line-height: 15px;
+    //   line-height: 15px;
+    line-height: 95px;
             float: left;
-            margin-top: 35px;
+            // margin-top: 35px;
         .h1{
             @include font(39px,$p-light, #ffffff);
             margin-bottom: 0px;
@@ -89,7 +90,16 @@ button {
             }
         }
         .logo1{
-        margin-top: 30px;}
+        // margin-top: 30px;
+        line-height: 85px;
+    }
+    }
+    @media(max-width:320px){
+        .logo1{
+            img{
+                width: 205px;
+            }
+        }
     }
   
 
